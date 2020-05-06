@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DEPS=$(IFS=","; echo "$*")
+sbt "set libraryDependencies ++= Seq($DEPS)" consoleQuick
+rm -r project target
