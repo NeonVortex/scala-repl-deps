@@ -1,5 +1,5 @@
 # scala-repl-deps
-A simple script that creates a Scala REPL with dependencies (lightweight Ammonite)
+A simple script that uses SBT and creates a Scala REPL with dependencies (lightweight Ammonite)
 
 Usage (dependency syntax is the same as SBT):
 
